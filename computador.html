@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Computador </title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body onload="move('element')">
+    <div class="container">
+      <i
+        class="fa fa-chrome element google"
+        style="font-size: 48px; color: white"
+        ><p style="font-size: 20px; margin-top: 2px">google</p></i
+      >
+      <i
+        class="fa fa-folder element pasta"
+        style="font-size: 48px; color: rgb(255, 181, 7)"
+        ><p style="font-size: 20px; margin-top: 2px">pasta</p></i
+      >
+      <i
+        class="fa fa-calculator element calculadora"
+        style="font-size: 48px; color: white"
+        ><p style="font-size: 20px; margin-top: 2px">calcu ladora</p></i
+      >
+      <i class="element doomGame"
+        ><img
+          width="65px"
+          draggable="false"
+          src="assets/img/jogo.png"
+          alt="jogo"
+          style="margin: 0px -5px; padding-top: 9px"
+        />
+        <p style="font-size: 23px; color: white; margin: 0px 7px">Doom</p></i
+      >
+    </div>
+
+    <div class="modal"></div>
+    <div class="modal2"></div>
+    <div class="barra-de-tarefas">
+      <div class="divisao-barra">
+        <div class="programas">
+          <button class="element2-logo">
+            <img src="assets/img/favicon.png" alt="logo" style="width: 50px" />
+          </button>
+          <i class="fa fa-chrome element2 google" style="font-size: 38px"> </i>
+          <i
+            class="fa fa-folder element2 pasta"
+            style="font-size: 38px; color: yellow"
+          >
+          </i>
+          <i
+            class="fa fa-calculator element2 calculadora"
+            style="font-size: 38px"
+          >
+          </i>
+          <i class="element2 doomGame"
+            ><img
+              width="50px"
+              style="margin-bottom: 4px"
+              src="assets/img/jogo.png"
+              alt="jogo"
+            />
+          </i>
+        </div>
+        <div class="informacoes-sobre">
+          <i style="font-size: 24px" class="fa">&#xf09e;</i>
+          <div class="hora-sobre"></div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
